@@ -1,5 +1,5 @@
 {
-  "name": "eslint-config",
+  "name": "eslint-config-typeskill",
   "version": "1.0.0",
   "description": "Lint standard for typeskill compliant codestyle.",
   "main": "index.js",
