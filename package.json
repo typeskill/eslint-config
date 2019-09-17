@@ -1,0 +1,32 @@
+{
+  "name": "eslint-config",
+  "version": "1.0.0",
+  "description": "Lint standard for typeskill compliant codestyle.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/typeskill/eslint-config.git"
+  },
+  "keywords": [
+    "eslint",
+    "typeskill"
+  ],
+  "author": "Jules Samuel Randolph",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/typeskill/eslint-config/issues"
+  },
+  "peerDependencies": {
+    "@typescript-eslint/eslint-plugin": "^2.3.0",
+    "@typescript-eslint/parser": "^2.3.0",
+    "eslint": "^6.4.0",
+    "eslint-config-prettier": "^6.3.0",
+    "eslint-plugin-prettier": "^3.1.0",
+    "eslint-plugin-react": "^7.14.3",
+    "prettier": "^1.18.2"
+  },
+  "homepage": "https://github.com/typeskill/eslint-config#readme"
+}
