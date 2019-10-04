@@ -14,6 +14,9 @@ npm install --save-dev @typeskill/eslint-config eslint @typescript-eslint/eslint
 
 ```javascript
 module.exports = {
+  plugins: [
+    "react-hooks", // optional
+  ],
   extends: [
     "@typeskill/eslint-config",
   ],
