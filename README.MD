@@ -7,8 +7,7 @@ Lint standard for typeskill compliant codestyle.
 1. You must install the config, and then provide all dependencies listed in `peerDependencies`.
 
 ```bash
-npm install --save-dev @typeskill/eslint-config
-npm install --save-dev @typescript-eslint/eslint-plugin @typescript-eslint/parser eslint eslint-config-prettier eslint-plugin-prettier eslint-plugin-react prettier
+npm install --save-dev @typeskill/eslint-config eslint @typescript-eslint/eslint-plugin @typescript-eslint/parser eslint-config-prettier eslint-plugin-prettier eslint-plugin-react prettier eslint-plugin-react-hooks 
 ```
 
 2. Add this to the root `.eslintrc.js` file:
@@ -35,4 +34,4 @@ module.exports = {
 
 ### IDE integration
 
-Check your IDE integration here: [https://prettier.io/docs/en/editors.html](https://prettier.io/docs/en/editors.html).
+Check prettier IDE integration here: [https://prettier.io/docs/en/editors.html](https://prettier.io/docs/en/editors.html).
