@@ -22,7 +22,9 @@ module.exports = {
       "@typescript-eslint/explicit-function-return-type": "off",
       "@typescript-eslint/indent": "off",
       "@typescript-eslint/no-non-null-assertion": "off",
-      "@typescript-eslint/no-parameter-properties": 2 // Not supported in Jest
+      "@typescript-eslint/no-parameter-properties": 2, // Not supported in Jest
+      "react-hooks/rules-of-hooks": "error",
+      "react-hooks/exhaustive-deps": "error"
     },
     settings: {
       react: {
