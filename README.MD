@@ -20,6 +20,9 @@ module.exports = {
   extends: [
     "@typeskill/eslint-config",
   ],
+  parserOptions: {
+    project: './tsconfig.json' // change tsconfig to whichever appropriate config file
+  },
 }
 ```
 
