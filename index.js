@@ -23,6 +23,7 @@ module.exports = {
       "@typescript-eslint/indent": "off",
       "@typescript-eslint/no-non-null-assertion": "off",
       "@typescript-eslint/no-parameter-properties": 2, // Not supported in Jest
+      "@typescript-eslint/no-floating-promises,": "error",
       "react-hooks/rules-of-hooks": "error",
       "react-hooks/exhaustive-deps": "error"
     },
